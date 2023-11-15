@@ -43,6 +43,12 @@ class Invite extends React.Component{
     openGift(){
         document.getElementById('giftandblack').style.display = "block"
     }
+    startMusic(){
+        const audio = document.querySelector("audio");
+        audio.volume = 0.2;
+        audio.play();
+        document.getElementById("blackblack").style.display = "none"
+    }
     countdown(){
         var countDownDate = new Date("Dec 3, 2023 10:00:00").getTime();
         // Update the count down every 1 second
@@ -78,6 +84,7 @@ class Invite extends React.Component{
         return(
             <div>
             <div id="obj-cont">
+                <div id="blackblack" onClick={this.startMusic}>Click to Start the Music!</div>
                 <Gift id="giftCard"/>
                 <Floater />
                 <img className="objects" src={One} alt="" id="One"/>

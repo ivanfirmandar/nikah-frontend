@@ -109,6 +109,19 @@
     font-size: 2vw;
     text-transform:uppercase;
 }
+#blackblack{
+    width: 100vw;
+    height: 100vh;
+    top: 0vw;
+    color: white;
+    text-align: center;
+    line-height: 20vh;
+    font-size: large;
+    background-color: black;
+    z-index: 1000;
+    opacity: 0.5;
+    position: fixed;
+}
 #maps img{
     position: relative;
     width: 4vw;
