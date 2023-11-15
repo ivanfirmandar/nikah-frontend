@@ -1,0 +1,37 @@
+#Gift-container{
+    position: fixed;
+    width: auto;
+    left: 50vw;
+    top: 50vh;
+    padding: 5vw 3vw;
+    transform: translate(-38vw,-30vw);
+    background-color: #BDCDEC;
+    height: auto;
+    z-index: 105;
+    border-radius: 2vw;
+}
+#Gift-container img{
+    width: 70vw;
+}
+#gift-header{
+    display: flex;
+    flex-flow: row-reverse;
+}
+#gift-header svg{
+    height: 5vw;
+    width: 5vw;
+    margin-bottom: 2vw;
+}
+#gift-header:hover{
+    cursor: pointer;
+}
+#OnesGift{
+    width: 30vw !important;
+    top: 25vw;
+    left: -15vw;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+}
+#giftandblack{
+    display: none;
+}

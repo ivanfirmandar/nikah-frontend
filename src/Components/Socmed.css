@@ -1,0 +1,19 @@
+#socmed-container{
+    width: 250px;
+    height: 30px;
+    /* background-color: goldenrod; */
+    border-radius: 15px;
+    display: inline-flex;
+    justify-content: center;
+    border: solid 1px;
+    line-height: 30px;
+}
+#socmed-container img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+#socmed-container p{
+    margin: 0px 2.5px 0px 2.5px;
+    font-size: 12px;
+}

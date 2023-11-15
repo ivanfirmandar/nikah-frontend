@@ -1,0 +1,246 @@
+#inv-bg img{
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    top: -20px;
+}
+.objects{
+    position: absolute;
+    z-index: 100;
+}
+#obj-cont{
+    position: absolute;
+    width: 100vw;
+    height:4000px;
+    overflow: hidden;
+    /* background-color: red; */
+    background-color: #b0ccd4;
+}
+#black{
+    position: fixed;
+    width: 100vw;
+    top: -0px;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 104;
+}
+#arrum{
+    width: 40vw;
+    top: 163vw;
+    margin-left: 5vw;
+}
+#usImg{
+    width: 45vw;
+    top: 203vw;
+    margin-left: 5vw;
+}
+#Assalam{
+    width: 35vw;
+    top: 223vw;
+    right: 5vw;
+}
+#Ivan{
+    width: 35vw;
+    top: 273vw;
+    left: 10vw;
+}
+#Ands{
+    width: 5vw;
+    top: 283vw;
+    left: 47vw;
+}
+#Adin{
+    width: 35vw;
+    top: 293vw;
+    right: 10vw;
+}
+#Save{
+    width: 35vw;
+    top: 370vw;
+    right: 5vw;
+}
+#Time{
+    width: 80vw;
+    top: 400vw;
+    left: 50vw;
+    transform: translateX(-40vw);
+}
+#Place{
+    width: 35vw;
+    top: 435vw;
+    left: 10vw;
+}
+#Akad{
+    width: 35vw;
+    top: 435vw;
+    right: 10vw;
+}
+#Resepsi{
+    width: 35vw;
+    top: 455vw;
+    right: 10vw;
+}
+#Places{
+    width: 45vw;
+    top: 476vw;
+    left: 10vw;
+}
+#maps{
+    width: 30vw;
+    height: 8vw;
+    background-color: transparent;
+    border-color: #BDCDEC;
+    box-shadow: none;
+    border: 2px solid #BDCDEC;
+    border-radius: 20vw;
+    top: 492vw;
+    display: flex;
+    left: 10vw;
+}
+#maps:hover{
+    background-color: #BDCDEC;
+}
+#maps b{
+    line-height: 4vw;
+    position: relative;
+    color: black;
+    left: 4vw;
+    font-size: 2vw;
+    text-transform:uppercase;
+}
+#maps img{
+    position: relative;
+    width: 4vw;
+    height: 4vw;
+}
+#Story{
+    width: 25vw;
+    top: 545vw;
+    right: 5vw;
+}
+#Sambat{
+    width: 35vw;
+    top: 575vw;
+    right: 5vw;
+}
+#Akhsa{
+    width: 35vw;
+    top: 615vw;
+    left: 5vw;
+}
+#Propos{
+    width: 35vw;
+    top: 655vw;
+    right: 5vw;
+}
+#Sampang{
+    width: 35vw;
+    top: 690vw;
+    left: 5vw;
+}
+#gift{
+    position: absolute;
+    z-index: 100;
+    width: 50vw;
+    height: 50vw;
+    top: 512vw;
+    left: 0vw;
+    background-color: transparent;
+    border: none;
+}
+#One{
+    width: 40vw;
+    top: 60vw;
+    right: -7vw;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Two{
+    width: 55vw;
+    top: 60vw;
+    left: -15vw;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Three{
+    width: 30vw;
+    top: 230vw;
+    left: 35vw;
+    z-index: 102;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Four{
+    width: 30vw;
+    top: 440vw;
+    left: 30vw;
+    z-index: 99;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Five{
+    width: 30vw;
+    top: 615vw;
+    left: 45vw;
+    z-index: 99;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Six{
+    width: 25vw;
+    top: 650vw;
+    left: 30vw;
+    z-index: 99;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#dates{
+    width: 80vw;
+    top: 402vw;
+    left: 50vw;
+    transform: translateX(-40vw);
+    display: inline-flex;
+    font-family: 'Bodoni';
+}
+#days{
+    position: absolute;
+    font-size: 10vw;
+    left: 3vw;
+    top: 3vw;
+}
+#hours{
+    position: absolute;
+    font-size: 10vw;
+    left: 24vw;
+    top: 3vw;
+}
+#minutes{
+    position: absolute;
+    font-size: 10vw;
+    left: 45vw;
+    top: 3vw;
+}
+#seconds{
+    position: absolute;
+    font-size: 10vw;
+    left: 66vw;
+    top: 3vw;
+}
+@keyframes rotater{
+    0%,100% {
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+}
+#harapan{
+    top: 400vw;
+}

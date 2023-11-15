@@ -1,0 +1,73 @@
+#acara-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.acara-date{
+    padding: 20px;
+    font-family: 'Bodoni';
+    font-size: 18px;
+    text-align: center;
+
+    display: grid;
+    grid-template-areas: 
+    "title title title"
+    "week week week"
+    "shape shape shape"
+    "month day year"
+    "shape2 shape2 shape2"
+    "time time time";
+    width: 200px;
+    height: auto;
+}
+.acara-date-title{
+    grid-area: title;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Anydore';
+}
+.acara-date-week{
+    grid-area: week;
+}
+.acara-date-shape{
+    grid-area: shape;
+    background-color: #031c37;
+    height: 6px;
+}
+.acara-date-shape div{
+    width: 50px;
+    height: 3px;
+    background-color: #74736C;
+}
+.acara-date-month{
+    grid-area: month;
+}
+.acara-date-day{
+    grid-area: day;
+    font-size: 40px;
+    margin: 0px;
+    font-family: 'Anydore';
+}
+.acara-date-year{
+    grid-area: year;
+}
+.acara-date-shape2{
+    grid-area: shape2;
+    background-color: #031c37;
+    height: 6px;
+}
+.acara-date-shape2 div{
+    width: 50px;
+    height: 3px;
+    background-color: #74736C;
+}
+.acara-date-time{
+    grid-area: time;
+}
+#acara-location{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}

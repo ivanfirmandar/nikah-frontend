@@ -1,0 +1,114 @@
+#title-container{
+    padding: 10px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    /* padding-left: 100px; */
+    display: grid;
+    grid-template-areas: 
+    'adin adin'
+    'and ivan'
+    'button button';
+    grid-template-columns: 40px auto;
+    /* font-family: 'Upakarti'; */
+    font-size: 40px;
+}
+#title-adin{
+    grid-area: adin;
+    margin-bottom: 15px;
+}
+#title-adin p:first-child{
+    font-family: 'Upakarti';
+    font-size: 80px;
+    margin: 0px;
+}
+#title-adin p:last-child{
+    font-family: 'Bodoni';
+    font-size: 14px;
+    text-transform:uppercase;
+    margin: 0px;
+}
+#title-ivan{
+    grid-area: ivan;
+}
+#title-ivan p:first-child{
+    font-family: 'Upakarti';
+    font-size: 80px;
+    margin: 0px;
+}
+#title-ivan p:last-child{
+    font-family: 'Bodoni';
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 14px;
+}
+#title-and{
+    font-family: 'Upakarti';
+    grid-area: and;
+    margin: 0px;
+    font-size: 25px;
+}
+#title-button{
+    margin-top: 40px;
+    position: relative;
+    grid-area: button;
+    background-color: #031c37;
+    border-radius: 30px;
+    height: 30px;
+    left:50%;
+    transform: translateX(-20vw);
+    width: 40vw;
+    color: whitesmoke;
+}
+#title-button:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+#title-button svg{
+    display: block;
+    position: relative;
+    padding: 0px;
+    width: 20px;
+    color: whitesmoke;
+    line-height: 30px;
+   left: 70px;
+   top: 5px;
+}
+#title-button p{
+    position: relative;
+    /* display: inline-block; */
+    bottom: 20px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Anydore';
+}
+#gunungan-satu{
+    position: absolute;
+    animation: gunungan 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+    top: 80px;
+    left: 80px;
+    opacity: 0.4;
+    z-index: 1;
+    width: 200px;
+}
+@keyframes gunungan{
+    0%,100% {
+        transform: rotate(-5deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+}
+@media only screen and (max-width: 600px){
+    #gunungan-satu{
+        position: absolute;
+        top: 80px;
+        left: -60px;
+        opacity: 0.4;
+        z-index: 1;
+        width: 200px;
+    }
+}

@@ -1,0 +1,26 @@
+#Harapan-container{
+    /* background-color: rebeccapurple; */
+    width: 100vw;
+    height: auto;
+    top: 760vw;
+    padding: 3vw;
+}
+.nameBadge{
+    width: 40vw;
+    height: 5vw;
+    margin: 3vw;
+    margin-bottom: 0vw;
+}
+.card-body{
+    padding: 0;
+    text-align: justify;
+}
+#rekapPesan{
+    margin-top: 3vw;
+    /* background-color: red; */
+    height: 100vw;
+    overflow: scroll;
+}
+.cardBadge{
+    margin-bottom: 2vw;
+}

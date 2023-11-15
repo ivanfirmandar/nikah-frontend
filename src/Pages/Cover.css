@@ -1,0 +1,77 @@
+#cover-bg{
+    height: 100vh;
+    /* overflow: hidden; */
+    margin-top: -10px;
+}
+#cover-bg img{
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+    top: -20px;
+}
+#objd-cont{
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+}
+.objects{
+    position: absolute;
+}
+#Ones{
+    width: 40vw;
+    top: 100vw;
+    right: -7vw;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Twos{
+    width: 55vw;
+    top: 80vw;
+    left: -15vw;
+    animation: rotater 15s linear infinite;
+    transform: rotate(-5deg);
+    transform-origin: bottom;
+}
+#Name{
+    width: 45vw;
+    top: 145vw;
+    right: 5vw;
+}
+#person{
+    position: absolute;
+    font-size: 8vw;
+    top: 10vw;
+    left: 7vw;
+    font-family: 'Bakso Sapi';
+}
+#entry{
+    width: 50vw;
+    height: 15vw;
+    background-color: #BDCDEC;
+    border-color: #BDCDEC;
+    box-shadow: none;
+    border: 1vw solid #BDCDEC;
+    border-radius: 20vw;
+    top: 186vw;
+    display: flex;
+    left: 10vw;
+}
+#entry b{
+    line-height : 13vw;
+    position: relative;
+    left: 15vw;
+    font-size: 4vw;
+    text-transform:uppercase;
+    font-family: 'Bakso Sapi';
+}
+#entry img{
+    position: relative;
+    width: 4vw;
+    top: 1.5vw;
+    left: 1.5vw;
+    height: 4vw;
+}
+#entry:hover{
+    cursor: pointer;
+}

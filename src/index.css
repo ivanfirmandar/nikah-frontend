@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Upakarti";
+  src: url('./Fonts/upakarti.ttf');
+}
+@font-face {
+  font-family: "Upakarti Other";
+  src: url('./Fonts/Upakarti\ Serong.ttf');
+}
+@font-face {
+  font-family: "Bakso Sapi";
+  src: url('./Fonts/BaksoSapi.otf');
+}
+@font-face {
+  font-family: 'Bodoni';
+  src: url('./Fonts/BodonBk.ttf');
+}
+@font-face {
+  font-family : "Anydore";
+  src: url('./Fonts/Anydore.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('./Images/wallpaper2.jpg');  */
+  background-attachment: fixed;
+  background-size: 100vw;
+  background-blend-mode:lighten;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
