@@ -36,7 +36,6 @@ class Harapan extends React.Component{
         console.log(json);
         let response = await fetch("https://nikah-one.vercel.app/api/sendmessages",{
             method:"POST",
-            mode :"no-cors",
             headers: {
                 'Content-Type': 'application/json'
                 },
