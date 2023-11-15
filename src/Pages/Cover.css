@@ -12,7 +12,7 @@
 #objd-cont{
     position: absolute;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .objects{
     position: absolute;
