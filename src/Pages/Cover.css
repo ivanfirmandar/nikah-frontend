@@ -1,6 +1,6 @@
 #cover-bg{
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin-top: -10px;
 }
 #cover-bg img{
