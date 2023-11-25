@@ -41,6 +41,7 @@ class Harapan extends React.Component{
                 },
                 body : JSON.stringify(json)
             })
+alert("Berhasil terkirim")
             let result = await response.json()
     }
     render(){
