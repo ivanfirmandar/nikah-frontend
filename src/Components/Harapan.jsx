@@ -33,7 +33,8 @@ class Harapan extends React.Component{
             nama : document.getElementById('namaTeman').value,
             pesan : document.getElementById('pesanTeman').value
         }
-        console.log(json);
+
+alert("Berhasil terkirim")        console.log(json);
         let response = await fetch("https://nikah-one.vercel.app/api/sendmessages",{
             method:"POST",
             headers: {
@@ -41,7 +42,7 @@ class Harapan extends React.Component{
                 },
                 body : JSON.stringify(json)
             })
-alert("Berhasil terkirim")
+
             let result = await response.json()
     }
     render(){
